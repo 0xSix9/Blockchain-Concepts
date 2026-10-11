@@ -1,9 +1,5 @@
 # What Is a Smart Contract? (SC)
 
-**Author:** [Ali Sultanalizadeh](https://medium.com/@0xsix9)  
-**Published:** November 25, 2025  
-**Original article:** [What is a Smart Contract? (SC)](https://medium.com/@0xsix9/what-is-a-smart-contract-sc-0fe3e6abe89c)
-
 ![Smart Contract](../../assets/smart-contract/Smart-Contract.png)
 
 ## Nick Szabo
