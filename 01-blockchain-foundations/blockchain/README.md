@@ -1,8 +1,6 @@
 # What is a Blockchain?
 
-![Recreated blockchain structure illustration](../../assets/blockchain/blockchain-structure.svg)
-
-> Originally published on Medium by Ali Sultanalizadeh on November 19, 2025. This repository copy preserves the article text; the diagram above is a local recreation because the original embedded image could not be extracted as a standalone file.
+> Originally published on Medium by Ali Sultanalizadeh on November 19, 2025.
 
 [Read the original article on Medium](https://medium.com/@0xsix9/what-is-a-blockchain-cfb1a14842eb)
 
