@@ -1,5 +1,5 @@
 # EIP-1559: The Ethereum Upgrade That Changed Transaction Fees Forever
-![EIP-1559](https://github.com/0xSix9/EIP-1559/blob/520fe358f55662b45e45f12d7a572fdbf7eedcad/img/EIP-1559.png)
+![EIP-1559](../../assets/EIP-1559/img/EIP-1559.png)
 Ethereum is one of the most important blockchain networks in the world. Since its launch, millions of users and applications have relied on Ethereum for decentralized finance, NFTs, smart contracts, and digital assets.
 
 However, one of Ethereum’s biggest challenges has always been its transaction fee system.

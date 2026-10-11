@@ -1,5 +1,5 @@
 # EIP-4844: Proto-Danksharding and the Introduction of Blob Transactions
-![EIP-4844](https://github.com/0xSix9/eip-4844/blob/04cc0de8db3341d147d5fe3fb42a82fe0abdb658/img/EIP-4844.png)
+![EIP-4844](../../assets/eip-4844/img/EIP-4844.png)
 Ethereum has always faced a fundamental scalability problem: the network has limited block space, while the demand for transactions continues to grow.
 
 Layer 2 Rollups helped Ethereum process much more activity by moving execution away from the main chain. However, Rollups still need to publish transaction data to Ethereum, and that data can become one of their biggest costs.

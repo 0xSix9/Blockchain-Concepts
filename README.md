@@ -56,4 +56,4 @@ Intentionally excluded:
 ## Notes
 
 - These files are consolidated copies; original repositories have not been deleted or modified.
-- Some diagrams/images are linked from their original repositories so that they remain viewable without duplicating large binary assets here.
+- Article images and diagrams are stored inside this repository, so the consolidated articles do not depend on the original repositories.

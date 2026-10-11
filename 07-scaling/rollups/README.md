@@ -1,5 +1,5 @@
 # Rollups: How Ethereum Scales Transaction Execution
-![rollups](https://github.com/0xSix9/rollups/blob/04cc1eea7084e3011274023c95019df420962b3d/img/Rollups.png)
+![rollups](../../assets/rollups/img/Rollups.png)
 Ethereum's mainnet provides strong security and decentralized settlement, but it has limited execution capacity.
 
 As more users and applications enter the Ethereum ecosystem, processing every transaction directly on Ethereum becomes expensive and inefficient.

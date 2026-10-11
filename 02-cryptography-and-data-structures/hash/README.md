@@ -1,5 +1,5 @@
 # Hash — The Foundation of Blockchain Security
-![hash](https://github.com/0xSix9/hash/blob/b9da3f0f589c4f4fe56091e5a2b66e5346f15a86/img/hash.png)
+![hash](../../assets/hash/img/hash.png)
 ## What Is a Hash?
 
 A **Hash** is a mathematical function that takes any input — no matter how small or large (a single word, an entire book, or a multi-gigabyte file) — and converts it into an output of a **fixed size**.

@@ -1,5 +1,5 @@
 # Distributed Ledger Technology (DLT): What Is a Distributed Ledger?
-![DLT](https://github.com/0xSix9/dlt/blob/762091da336dadb08ee13a56b69f80b99801a717/img/dlt.png)
+![DLT](../../assets/dlt/img/dlt.png)
 ## Introduction
 
 Distributed Ledger Technology (DLT) is a technology for recording, storing, and sharing data across multiple computers or participants in a network.

@@ -1,5 +1,5 @@
 # What Is a Merkle Tree and What Is Its Role in Blockchain?
-![merkle tree](https://github.com/0xSix9/merkle-tree/blob/0e833c8e652b481b900dec39702cdb802f5596cb/img/merkle-tree.png)
+![merkle tree](../../assets/merkle-tree/img/merkle-tree.png)
 ## Introduction
 
 In a blockchain, especially in networks such as Bitcoin and Ethereum, each block can contain a large number of transactions.

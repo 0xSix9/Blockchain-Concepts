@@ -1,5 +1,5 @@
 # Blockchain Layers Explained: Layer 1, Layer 2, and Layer 3
-![layers](https://github.com/0xSix9/layers/blob/663713bdf173bb2135852924fd65f7a54f92e281/img/layers.png)
+![layers](../../assets/layers/img/layers.png)
 ## Introduction
 
 Blockchain technology is constantly evolving. As more users and applications enter the blockchain ecosystem, networks face challenges such as scalability, high transaction fees, slow execution, and limited throughput.

@@ -1,5 +1,5 @@
 # Hard Fork vs. Soft Fork: Understanding How Blockchain Protocols Evolve
-![hard fork soft fork](https://github.com/0xSix9/hard-fork-soft-fork/blob/ffe5b997424dc29fe1ed8dbcba1d908c9f538fab/img/hard-fork-soft-fork.png)
+![hard fork soft fork](../../assets/hard-fork-soft-fork/img/hard-fork-soft-fork.png)
 ## Introduction
 
 Blockchains are often described as immutable systems: once data is recorded, it cannot simply be rewritten. But **immutability does not mean that a blockchain protocol can never change**.

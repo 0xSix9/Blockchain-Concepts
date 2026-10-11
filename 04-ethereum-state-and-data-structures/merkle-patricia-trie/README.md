@@ -1,5 +1,5 @@
 # What Is a Merkle Patricia Trie and Why Does Ethereum Use It?
-![Merkle Patricia Trie](https://github.com/0xSix9/merkle-patricia-trie/blob/2b3cf15267543777cd0c7da5e40bcf50caeb6758/img/merkle-patricia-trie.png)
+![Merkle Patricia Trie](../../assets/merkle-patricia-trie/img/merkle-patricia-trie.png)
 ## Introduction
 
 In the previous article, we discussed the **Merkle Tree** and learned how a large collection of data can be represented by a single root hash.

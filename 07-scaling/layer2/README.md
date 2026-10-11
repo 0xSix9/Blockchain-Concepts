@@ -1,5 +1,5 @@
 # Layer 2: How Ethereum Scales Beyond the Main Chain
-![layer2](https://github.com/0xSix9/layer2/blob/5d436b10649b6f3f2053715dcecd1a46fef9f75a/img/Layer2.png)
+![layer2](../../assets/layer2/img/Layer2.png)
 Ethereum is one of the most widely used blockchain platforms for smart contracts and decentralized applications. However, Ethereum's main network has limited capacity.
 
 When many users compete for the same block space, transaction fees can increase and transactions can become slower or more expensive.

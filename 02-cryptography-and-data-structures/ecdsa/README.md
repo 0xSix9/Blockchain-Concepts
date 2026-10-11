@@ -1,5 +1,5 @@
 # Digital Signature Algorithms and ECDSA: How Blockchain Transactions Are Signed
-![ECDSA](https://github.com/0xSix9/ecdsa/blob/07744c7bf39ea0e54456bf84742743b854b4635d/img/ecdsa.png)
+![ECDSA](../../assets/ecdsa/img/ecdsa.png)
 Digital signatures are one of the fundamental cryptographic technologies behind modern blockchains.
 
 Whenever a user sends a transaction from a cryptocurrency wallet, the network needs a way to answer an important question:

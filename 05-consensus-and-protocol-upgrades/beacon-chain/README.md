@@ -1,5 +1,5 @@
 # Beacon Chain: The Foundation of Ethereum's Proof-of-Stake Consensus
-![beacon chain](https://github.com/0xSix9/beacon-chain/blob/8865533b6d1789b2fc424fae455f41379289753c/img/Beacon-Chain.png)
+![beacon chain](../../assets/beacon-chain/img/Beacon-Chain.png)
 ## 1. Introduction
 
 Ethereum is one of the most important blockchain platforms in the world. It was created to support not only digital currency transactions but also smart contracts, decentralized applications, and many other blockchain-based technologies. As the Ethereum network grew, its developers faced several challenges related to energy consumption, security, and scalability.

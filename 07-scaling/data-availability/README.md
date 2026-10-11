@@ -1,5 +1,5 @@
 # Data Availability in Blockchain: How Networks Prove That Data Is Really There
-![data availability](https://github.com/0xSix9/data-availability/blob/d8cf23f89feb349c7ebd7925e2fbbeeacd4d9a38/img/Data-Availability.png)
+![data availability](../../assets/data-availability/img/Data-Availability.png)
 A blockchain is supposed to be **verifiable without trusting a single party**.
 
 When a new block changes the state of a blockchain, participants need enough information to independently verify that change.

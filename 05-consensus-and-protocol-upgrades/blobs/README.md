@@ -1,5 +1,5 @@
 # Understanding Blobs on Ethereum: How EIP-4844 Reshaped Layer-2 Scaling
-![blob](https://github.com/0xSix9/blob/blob/2d5aff522deddba99d7fbfebf30bf2a7341844c2/img/blob.png)
+![blob](../../assets/blob/img/blob.png)
 ## Introduction
 
 For years, Ethereum's biggest weakness was cost. As the network grew more popular, transaction fees climbed, and Layer-2 rollups — which bundle thousands of transactions and post compressed proofs back to Ethereum — still had to pay steep prices to publish their data as regular "calldata" on the main chain. In March 2024, the Dencun upgrade introduced a solution: **blobs**, defined by Ethereum Improvement Proposal 4844 (EIP-4844), also known as "proto-danksharding." Blobs created a cheaper, purpose-built lane for rollup data, and in doing so, transformed the economics of scaling Ethereum.

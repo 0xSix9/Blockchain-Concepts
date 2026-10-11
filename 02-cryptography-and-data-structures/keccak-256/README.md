@@ -1,5 +1,5 @@
 # Keccak-256: The Hash Function Behind Ethereum
-![keccak-256](https://github.com/0xSix9/keccak-256/blob/005e0b57a4bd0080de40d8fe2bf6df15cf6e0a1e/img/keccak-256.png)
+![keccak-256](../../assets/keccak-256/img/keccak-256.png)
 **When** learning about blockchain technology, cryptographic hashing is one of the fundamental concepts that every developer should understand.
 
 Ethereum, smart contracts, wallets, transactions, and many other blockchain components rely heavily on cryptographic hash functions.

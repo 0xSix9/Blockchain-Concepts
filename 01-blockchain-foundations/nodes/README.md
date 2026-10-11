@@ -1,5 +1,5 @@
 # Blockchain Nodes: What Are Nodes and What Types of Nodes Exist?
-![node](https://github.com/0xSix9/node/blob/c10d8c2fd2dade3886724de45a914e2f6003f70f/img/node.png)
+![node](../../assets/node/img/node.png)
 ## Introduction
 
 A blockchain is often described as a decentralized network where thousands of computers communicate with each other without relying on a central server.
