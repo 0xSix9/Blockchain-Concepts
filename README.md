@@ -4,6 +4,7 @@
 
 ### 01 · Blockchain foundations
 - [What is a Blockchain?](01-blockchain-foundations/blockchain/README.md)
+- [What Is a Smart Contract? (SC)](01-blockchain-foundations/smart-contract/README.md)
 - [What Is the Blockchain Triangle? Features of a Blockchain](01-blockchain-foundations/blockchain-triangle/README.md)
 - [Distributed Ledger Technology (DLT)](01-blockchain-foundations/distributed-ledger-technology/README.md)
 - [Blockchain nodes](01-blockchain-foundations/nodes/README.md)
