@@ -5,13 +5,13 @@
 
 The Proof of Stake (PoS) consensus mechanism is one of the popular methods for verifying and securing transactions in blockchains. Unlike Proof of Work (PoW), which requires high processing power and energy consumption to verify transactions, PoS uses validators to verify blocks instead of relying on miners.
 
-![Proof of Stake](../../assets/proof-of-stake/proof-of-stake.png)
+![Proof of Stake](../../assets/proof-of-stake/POS.png)
 
 ## General Principles of the Proof of Stake (PoS) Mechanism
 
 In PoS, instead of miners, validators are responsible for validating transactions and creating new blocks. Anyone who wants to become a network validator must lock a certain amount of the same network’s digital currency as stake in the network. These shares usually act as collateral that encourages validators to behave honestly.
 
-![Proof of Stake process](../../assets/proof-of-stake/proof-of-stake-process.png)
+![Proof of Stake process](../../assets/proof-of-stake/Validation.png)
 
 ## Consensus Process Steps in PoS
 
