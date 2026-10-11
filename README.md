@@ -49,7 +49,3 @@ The original articles are preserved in topic-specific folders. Source repositori
 
 
 
-## Notes
-
-- These files are consolidated copies; original repositories have not been deleted or modified.
-- Article images and diagrams are stored inside this repository, so the consolidated articles do not depend on the original repositories.
