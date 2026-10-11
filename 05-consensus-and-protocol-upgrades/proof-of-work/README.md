@@ -18,9 +18,9 @@ In the POW mechanism, validators (miners) compete with each other to solve a com
 
 ## Proof of Work (PoW)
 
-![Proof of Work (PoW)](../../assets/proof-of-work/pow.png)
+![Proof of Work (PoW)](../../assets/proof-of-work/POW.png)
 
-![Proof of Work process diagram](../../assets/proof-of-work/pow-process.png)
+![Proof of Work process diagram](../../assets/proof-of-work/block-chain.png)
 
 This image shows the steps of the Proof of Work (POW) process in a blockchain network. In this process, a transaction along with certain data (such as the hash of the previous block) is entered into the SHA-256 hashing algorithm to generate a new hash. The following is a more detailed explanation of the steps.
 
