@@ -1,9 +1,5 @@
 # Blockchain Concepts
 
-A categorized collection of blockchain and Ethereum concept notes by [@0xSix9](https://github.com/0xSix9).
-
-The original articles are preserved in topic-specific folders. Source repositories are kept intact; this repository is a consolidated copy for easier navigation.
-
 ## Contents
 
 ### 01 · Blockchain foundations
