@@ -7,6 +7,7 @@ The original articles are preserved in topic-specific folders. Source repositori
 ## Contents
 
 ### 01 · Blockchain foundations
+- [What is a Blockchain?](01-blockchain-foundations/blockchain/README.md)
 - [Distributed Ledger Technology (DLT)](01-blockchain-foundations/distributed-ledger-technology/README.md)
 - [Blockchain nodes](01-blockchain-foundations/nodes/README.md)
 - [Blockchain layers](01-blockchain-foundations/blockchain-layers/README.md)
