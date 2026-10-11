@@ -34,6 +34,7 @@ The original articles are preserved in topic-specific folders. Source repositori
 - [Beacon Chain](05-consensus-and-protocol-upgrades/beacon-chain/README.md)
 - [EIP-4844](05-consensus-and-protocol-upgrades/eip-4844/README.md)
 - [Blobs](05-consensus-and-protocol-upgrades/blobs/README.md)
+- [Consensus Mechanism (Proof of Work) — PoW](05-consensus-and-protocol-upgrades/proof-of-work/README.md)
 
 ### 06 · Tokens and standards
 - [Tokens and Ethereum standards](06-tokens-and-standards/token/README.md)
