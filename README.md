@@ -47,14 +47,7 @@ The original articles are preserved in topic-specific folders. Source repositori
 ### 08 · Oracles and interoperability
 - [Oracles and Chainlink](08-oracles-and-interoperability/oracles/README.md)
 
-## Scope
 
-Included topics are blockchain concepts, Ethereum architecture, cryptography, state structures, tokens, oracles, protocol upgrades, and scaling.
-
-Intentionally excluded:
-- Internet/networking-only notes, including `Internet-and-Web`, `Internet-and-Network`, and `http-websocket`.
-- `ethereum-block-structure`, as explicitly requested.
-- `0xsix9`, the profile repository, because it is not a standalone blockchain-concept article.
 
 ## Notes
 
