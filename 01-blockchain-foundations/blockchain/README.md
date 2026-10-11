@@ -1,11 +1,14 @@
 # What is a Blockchain?
 
+![Blockchain overview](../../assets/blockchain/blockchain.png)
 
 ## First, let’s have a simple definition of blockchain
 
 Blockchain is a chain of blocks, each block contains a set of data. These blocks are sequentially connected to each other and form a chain. Each block contains information such as transactions, time and a unique hash from the previous block.
 
 ## Block
+
+![Block structure](../../assets/blockchain/block.png)
 
 Blocks are the basic units of information in the blockchain. Each block contains a set of data, header and hash. Data usually includes transactions or other information. The header contains information such as when the block was created, the hash of the previous block, and more.
 
