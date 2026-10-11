@@ -1,9 +1,5 @@
 # Consensus Mechanism (Proof of Work) — PoW
 
-[Ali Sultanalizadeh](https://medium.com/@0xsix9)
-
-**Originally published:** November 21, 2025 · **Reading time:** 3 min
-
 [Read the original article on Medium](https://medium.com/@0xsix9/consensus-mechanism-proof-of-work-pow-e0862e642c5a)
 
 In the POW mechanism, validators (miners) compete with each other to solve a complex mathematical problem that requires high computing power. This process is known as mining. The first miner who can solve the problem gets the right to add a new block to the chain and receives a reward.
@@ -47,5 +43,3 @@ After calculating the desired hash, this block is added to the blockchain chain 
 ---
 
 **Source:** [Consensus Mechanism (Proof of Work) — POW](https://medium.com/@0xsix9/consensus-mechanism-proof-of-work-pow-e0862e642c5a)
-
-> Editorial note: The article's original wording is preserved with only light Markdown, capitalization, and punctuation cleanup. “Nance” is retained as written in the source; the standard term is “nonce.”
