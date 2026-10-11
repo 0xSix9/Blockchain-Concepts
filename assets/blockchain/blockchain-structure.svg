@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" rx="28" fill="#f8fafc"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#0f172a">Blockchain: A Chain of Blocks</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#475569">Each block stores data and links to the previous block's hash</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="190" width="280" height="235" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <rect x="460" y="190" width="280" height="235" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <rect x="850" y="190" width="280" height="235" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <g fill="#0f172a" font-size="27" font-weight="700" text-anchor="middle">
+      <text x="210" y="235">Block 0</text><text x="600" y="235">Block 1</text><text x="990" y="235">Block 2</text>
+    </g>
+    <g fill="#334155" font-size="20" text-anchor="middle">
+      <text x="210" y="282">Genesis Block</text><text x="600" y="282">Data + Header</text><text x="990" y="282">Data + Header</text>
+      <text x="210" y="330">Hash: H₀</text><text x="600" y="330">Hash: H₁</text><text x="990" y="330">Hash: H₂</text>
+      <text x="600" y="370">Previous hash: H₀</text><text x="990" y="370">Previous hash: H₁</text>
+    </g>
+    <path d="M350 305 L450 305" stroke="#475569" stroke-width="5" fill="none"/><path d="M435 291 L450 305 L435 319" stroke="#475569" stroke-width="5" fill="none"/>
+    <path d="M740 305 L840 305" stroke="#475569" stroke-width="5" fill="none"/><path d="M825 291 L840 305 L825 319" stroke="#475569" stroke-width="5" fill="none"/>
+    <text x="600" y="485" text-anchor="middle" font-size="21" fill="#475569">Changing a block's data changes its hash and breaks the links that follow.</text>
+  </g>
+</svg>
