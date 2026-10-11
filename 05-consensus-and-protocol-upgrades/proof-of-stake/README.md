@@ -1,9 +1,9 @@
 # Consensus Mechanism (Proof of Stake) — PoS
 
+![Proof of Stake](../../assets/proof-of-stake/POS.png)
 
 The Proof of Stake (PoS) consensus mechanism is one of the popular methods for verifying and securing transactions in blockchains. Unlike Proof of Work (PoW), which requires high processing power and energy consumption to verify transactions, PoS uses validators to verify blocks instead of relying on miners.
 
-![Proof of Stake](../../assets/proof-of-stake/POS.png)
 
 ## General Principles of the Proof of Stake (PoS) Mechanism
 
