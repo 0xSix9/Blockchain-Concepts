@@ -2,10 +2,6 @@
 
 ![Blockchain triangle](../../assets/blockchain-triangle/blockchain-triangle.png)
 
-**Author:** [Ali Sultanalizadeh](https://medium.com/@0xsix9)  
-**Originally published:** November 20, 2025 · 4 min read  
-**Source:** [What is the Blockchain Triangle? Features of a Blockchain — Medium](https://medium.com/@0xsix9/what-is-the-blockchain-triangle-features-of-a-blockchain-db628ce19ef6)
-
 ## Blockchain Triangle
 
 The blockchain triangle is a triangle made of three vertices: decentralization, security, and scalability.
