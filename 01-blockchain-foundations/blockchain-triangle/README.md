@@ -1,10 +1,8 @@
 # What Is the Blockchain Triangle? Features of a Blockchain
 
-![Blockchain triangle](../../assets/blockchain-triangle/blockchain-triangle.png)
 
 **Originally published on Medium by Ali Sultanalizadeh.**
 
-[Read the original article on Medium](https://medium.com/@0xsix9/what-is-the-blockchain-triangle-features-of-a-blockchain-db628ce19ef6)
 
 ## The Blockchain Trilemma
 
