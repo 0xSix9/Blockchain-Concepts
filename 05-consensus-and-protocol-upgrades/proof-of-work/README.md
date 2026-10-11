@@ -1,6 +1,5 @@
 # Consensus Mechanism (Proof of Work) — PoW
 
-[Read the original article on Medium](https://medium.com/@0xsix9/consensus-mechanism-proof-of-work-pow-e0862e642c5a)
 
 In the POW mechanism, validators (miners) compete with each other to solve a complex mathematical problem that requires high computing power. This process is known as mining. The first miner who can solve the problem gets the right to add a new block to the chain and receives a reward.
 
