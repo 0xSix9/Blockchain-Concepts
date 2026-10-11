@@ -1,8 +1,5 @@
 # What is a Blockchain?
 
-> Originally published on Medium by Ali Sultanalizadeh on November 19, 2025.
-
-[Read the original article on Medium](https://medium.com/@0xsix9/what-is-a-blockchain-cfb1a14842eb)
 
 ## First, let’s have a simple definition of blockchain
 
