@@ -4,7 +4,7 @@
 **Published:** November 25, 2025  
 **Original article:** [What is a Smart Contract? (SC)](https://medium.com/@0xsix9/what-is-a-smart-contract-sc-0fe3e6abe89c)
 
-![Smart Contract](../../assets/smart-contract/smart-contract.png)
+![Smart Contract](../../assets/smart-contract/Smart-Contract.png)
 
 ## Nick Szabo
 
@@ -14,7 +14,7 @@ The first person to introduce the concept of smart contracts.
 - **Famous article:** *Smart Contracts: Building Blocks for Digital Markets*
 - **Main idea:** Contracts are implemented as code and can be trusted to execute according to predefined rules.
 
-![Nick Szabo](../../assets/smart-contract/nick-szabo.png)
+![Nick Szabo](../../assets/smart-contract/nickszabo1.png)
 
 ## Where was the smart contract first implemented in practice?
 
@@ -28,7 +28,7 @@ With the idea and leadership of Vitalik Buterin:
 
 That’s why many people associate smart contracts with Ethereum, but the concept is much older.
 
-![Smart Contract](../../assets/smart-contract/smart-contract-ethereum.png)
+![Smart Contract](../../assets/smart-contract/s2.png)
 
 ## Smart Contract
 
@@ -41,7 +41,7 @@ A smart contract is a program or computer code that is stored and executed on a 
 3. **Unchangeable:** Deployed contract code and blockchain records are generally difficult to alter; however, whether a contract's behavior can be changed depends on its design.
 4. **No Need for Intermediaries:** Smart contracts can reduce reliance on intermediaries and may reduce costs and processing time.
 
-![Smart Contract Features](../../assets/smart-contract/smart-contract-features.png)
+![Smart Contract Features](../../assets/smart-contract/s3.png)
 
 ## How It Works
 
