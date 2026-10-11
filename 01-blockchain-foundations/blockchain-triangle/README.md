@@ -31,5 +31,3 @@ The trilemma is a useful way to think about design constraints, not a universal 
 ---
 
 **Source:** [What Is the Blockchain Triangle? Features of a Blockchain — Medium](https://medium.com/@0xsix9/what-is-the-blockchain-triangle-features-of-a-blockchain-db628ce19ef6)
-
-> Note: The original Medium page could not be retrieved in this session, so this is a reconstructed explanatory draft based on the article title and the commonly discussed blockchain trilemma—not a verbatim copy of the original article. Replace it with the original text if exact preservation is required.
