@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Decentralized Storage — The Data Layer of Web3</title>
+  <desc id="desc">A dark technical illustration of independent storage nodes connected through a peer-to-peer network, representing IPFS, Filecoin, and content-addressed data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".58" stop-color="#0B1D36"/><stop offset="1" stop-color="#101638"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="block" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#173B66"/><stop offset="1" stop-color="#102747"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#6EA8D9" stroke-opacity=".09" stroke-width="1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" rx="32" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="32" fill="url(#grid)"/>
+  <circle cx="1250" cy="430" r="330" fill="#2563EB" opacity=".08"/>
+  <circle cx="1250" cy="430" r="230" fill="#22D3EE" opacity=".05"/>
+  <g fill="none" stroke="#55D8F2" stroke-opacity=".48" stroke-width="2">
+    <path d="M890 260L1060 185L1230 270L1405 205L1480 360L1350 510L1450 670L1250 735L1080 625L900 700L820 500Z"/>
+    <path d="M1060 185L1080 380L1230 270L1350 510L1180 520L1080 625L1080 380L900 260L1180 520L1480 360"/>
+    <path d="M890 260L820 500L1080 380L1405 205M900 700L1180 520L1250 735"/>
+    <path d="M1080 380L1230 270L1180 520L1350 510L1250 735"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="1060" cy="185" r="9" fill="#67E8F9"/><circle cx="1230" cy="270" r="10" fill="#67E8F9"/>
+    <circle cx="1405" cy="205" r="8" fill="#60A5FA"/><circle cx="1480" cy="360" r="10" fill="#67E8F9"/>
+    <circle cx="1350" cy="510" r="12" fill="#67E8F9"/><circle cx="1450" cy="670" r="8" fill="#60A5FA"/>
+    <circle cx="1250" cy="735" r="10" fill="#67E8F9"/><circle cx="1080" cy="625" r="9" fill="#60A5FA"/>
+    <circle cx="900" cy="700" r="8" fill="#67E8F9"/><circle cx="820" cy="500" r="10" fill="#60A5FA"/>
+    <circle cx="890" cy="260" r="8" fill="#67E8F9"/><circle cx="1080" cy="380" r="12" fill="#E0F2FE"/>
+    <circle cx="1180" cy="520" r="9" fill="#67E8F9"/>
+  </g>
+  <g transform="translate(900 320)">
+    <path d="M0 25L110 0L220 25L110 52Z" fill="#1E5684" stroke="#67E8F9" stroke-width="2"/>
+    <path d="M0 25V150L110 186V52Z" fill="#12385D" stroke="#3AA8D5" stroke-width="2"/>
+    <path d="M220 25V150L110 186V52Z" fill="#0D2C4D" stroke="#3AA8D5" stroke-width="2"/>
+    <path d="M25 55L110 83L195 55M25 88L110 116L195 88M25 121L110 149L195 121" fill="none" stroke="#5DDCF2" stroke-opacity=".7" stroke-width="2"/>
+  </g>
+  <g transform="translate(1230 390)">
+    <rect x="0" y="0" width="104" height="112" rx="14" fill="url(#block)" stroke="#67E8F9" stroke-opacity=".85" stroke-width="2"/>
+    <path d="M24 30H80M24 48H68M24 66H76" stroke="#7DD3FC" stroke-width="5" stroke-linecap="round"/>
+    <rect x="27" y="82" width="50" height="10" rx="5" fill="#22D3EE" opacity=".75"/>
+  </g>
+  <g transform="translate(1350 560)">
+    <rect x="0" y="0" width="100" height="100" rx="18" fill="#102848" stroke="#60A5FA" stroke-width="2"/>
+    <path d="M25 18H75V78H25Z" fill="none" stroke="#67E8F9" stroke-width="3"/>
+    <path d="M36 36H64M36 48H64M36 60H57" stroke="#67E8F9" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(80 100)">
+    <rect width="410" height="42" rx="21" fill="#102947" stroke="#2B6388"/>
+    <circle cx="23" cy="21" r="5" fill="#67E8F9"/>
+    <text x="42" y="27" fill="#B9E8F5" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">WEB3 INFRASTRUCTURE</text>
+    <text x="0" y="150" fill="#F0F9FF" font-family="Inter,Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="-1.8">DECENTRALIZED</text>
+    <text x="0" y="222" fill="#67E8F9" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2.4">STORAGE</text>
+    <rect x="0" y="258" width="100" height="5" rx="2.5" fill="url(#cyan)"/>
+    <text x="0" y="315" fill="#C4D8E9" font-family="Inter,Arial,sans-serif" font-size="27">The data layer of Web3</text>
+    <text x="0" y="363" fill="#8DAEC8" font-family="Inter,Arial,sans-serif" font-size="20">IPFS  •  FILECOIN  •  CONTENT ADDRESSING</text>
+  </g>
+  <g transform="translate(80 790)" fill="#8DAEC8" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="1.5">
+    <text x="0" y="0">IDENTITY</text><circle cx="106" cy="-5" r="3" fill="#67E8F9"/><text x="123" y="0">INTEGRITY</text><circle cx="246" cy="-5" r="3" fill="#67E8F9"/><text x="263" y="0">AVAILABILITY</text>
+  </g>
+</svg>
