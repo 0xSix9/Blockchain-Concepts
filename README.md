@@ -45,5 +45,6 @@
 ### 08 · Oracles and interoperability
 - [Oracles and Chainlink](08-oracles-and-interoperability/oracles/README.md)
 
-
+### 09 · Decentralized storage and off-chain data
+- [Decentralized Storage: IPFS, Filecoin, and the Data Layer of Web3](09-decentralized-storage-and-off-chain-data/decentralized-storage/README.md)
 
