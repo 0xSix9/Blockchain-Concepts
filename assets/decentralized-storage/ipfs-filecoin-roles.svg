@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">IPFS and Filecoin: complementary roles</title>
+  <desc id="desc">IPFS focuses on content addressing and peer-to-peer retrieval. Filecoin provides storage agreements and cryptographic proofs for storage commitments. Both require deliberate availability planning.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity=".09"/></filter>
+  </defs>
+  <rect width="1400" height="820" rx="28" fill="#F7FAFC"/>
+  <text x="700" y="72" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#0F172A">Two protocols, different responsibilities</text>
+  <text x="700" y="112" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#526579">A useful mental model for the Web3 data layer</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="155" width="600" height="495" rx="24" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2"/>
+    <rect x="730" y="155" width="600" height="495" rx="24" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="2"/>
+  </g>
+  <path d="M70 179Q70 155 94 155H646Q670 155 670 179V245H70Z" fill="#E0F2FE"/>
+  <path d="M730 179Q730 155 754 155H1306Q1330 155 1330 179V245H730Z" fill="#E0E7FF"/>
+  <text x="112" y="207" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#075985">IPFS</text>
+  <text x="112" y="231" font-family="Inter,Arial,sans-serif" font-size="16" fill="#075985">Addressing and retrieval</text>
+  <text x="772" y="207" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#3730A3">Filecoin</text>
+  <text x="772" y="231" font-family="Inter,Arial,sans-serif" font-size="16" fill="#3730A3">Storage agreements and proofs</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="108" y="278" width="524" height="86" rx="14" fill="#F0F9FF" stroke="#BAE6FD"/>
+    <circle cx="145" cy="321" r="17" fill="#0284C7"/><text x="145" y="327" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">1</text>
+    <text x="178" y="314" font-size="20" font-weight="700" fill="#0F172A">Content addressing</text>
+    <text x="178" y="341" font-size="16" fill="#526579">A CID identifies a specific content representation.</text>
+    <rect x="108" y="386" width="524" height="86" rx="14" fill="#F0F9FF" stroke="#BAE6FD"/>
+    <circle cx="145" cy="429" r="17" fill="#0284C7"/><text x="145" y="435" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">2</text>
+    <text x="178" y="422" font-size="20" font-weight="700" fill="#0F172A">Peer-to-peer retrieval</text>
+    <text x="178" y="449" font-size="16" fill="#526579">Find and fetch content from participating peers.</text>
+    <rect x="108" y="494" width="524" height="86" rx="14" fill="#FFF7ED" stroke="#FED7AA"/>
+    <circle cx="145" cy="537" r="17" fill="#C2410C"/><text x="145" y="543" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">!</text>
+    <text x="178" y="530" font-size="20" font-weight="700" fill="#9A3412">Not permanent by default</text>
+    <text x="178" y="557" font-size="16" fill="#9A3412">Availability depends on nodes and persistence.</text>
+    <rect x="768" y="278" width="524" height="86" rx="14" fill="#EEF2FF" stroke="#C7D2FE"/>
+    <circle cx="805" cy="321" r="17" fill="#4F46E5"/><text x="805" y="327" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">1</text>
+    <text x="838" y="314" font-size="20" font-weight="700" fill="#0F172A">Storage agreements</text>
+    <text x="838" y="341" font-size="16" fill="#526579">Client and provider agree on terms and duration.</text>
+    <rect x="768" y="386" width="524" height="86" rx="14" fill="#EEF2FF" stroke="#C7D2FE"/>
+    <circle cx="805" cy="429" r="17" fill="#4F46E5"/><text x="805" y="435" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">2</text>
+    <text x="838" y="422" font-size="20" font-weight="700" fill="#0F172A">Cryptographic proofs</text>
+    <text x="838" y="449" font-size="16" fill="#526579">PoRep and PoSt verify storage-related claims.</text>
+    <rect x="768" y="494" width="524" height="86" rx="14" fill="#FFF7ED" stroke="#FED7AA"/>
+    <circle cx="805" cy="537" r="17" fill="#C2410C"/><text x="805" y="543" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">!</text>
+    <text x="838" y="530" font-size="20" font-weight="700" fill="#9A3412">Not forever by default</text>
+    <text x="838" y="557" font-size="16" fill="#9A3412">Deals expire; retrieval must be planned separately.</text>
+  </g>
+  <rect x="215" y="691" width="970" height="78" rx="18" fill="url(#header)"/>
+  <text x="700" y="724" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">Use the right layer for the right job</text>
+  <text x="700" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" fill="#E0F2FE">Address and retrieve content with IPFS; plan persistence with appropriate storage providers.</text>
+</svg>
