@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650" role="img" aria-labelledby="title desc">
+  <title id="title">Four different data properties</title>
+  <desc id="desc">Content identity, integrity, availability, and long-term retention are different requirements and need different mechanisms.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity=".08"/></filter>
+  </defs>
+  <rect width="1400" height="650" rx="28" fill="#F8FAFC"/>
+  <text x="700" y="70" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#0F172A">Four properties. Four different questions.</text>
+  <text x="700" y="110" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#526579">No single CID, protocol, or storage deal automatically solves them all.</text>
+  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+    <rect x="55" y="165" width="620" height="180" rx="22" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2"/>
+    <rect x="725" y="165" width="620" height="180" rx="22" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="2"/>
+    <rect x="55" y="380" width="620" height="180" rx="22" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="2"/>
+    <rect x="725" y="380" width="620" height="180" rx="22" fill="#FFFFFF" stroke="#FED7AA" stroke-width="2"/>
+  </g>
+  <g font-family="Inter,Arial,sans-serif">
+    <circle cx="110" cy="220" r="28" fill="#E0F2FE"/><text x="110" y="229" text-anchor="middle" font-size="25" font-weight="800" fill="#0369A1">1</text>
+    <text x="157" y="218" font-size="25" font-weight="800" fill="#0F172A">Identity</text>
+    <text x="157" y="251" font-size="18" fill="#526579">Which exact content are we referring to?</text>
+    <rect x="95" y="282" width="540" height="38" rx="10" fill="#F0F9FF"/><text x="365" y="306" text-anchor="middle" font-size="16" font-weight="700" fill="#075985">Content addressing • CID</text>
+    <circle cx="780" cy="220" r="28" fill="#E0E7FF"/><text x="780" y="229" text-anchor="middle" font-size="25" font-weight="800" fill="#4338CA">2</text>
+    <text x="827" y="218" font-size="25" font-weight="800" fill="#0F172A">Integrity</text>
+    <text x="827" y="251" font-size="18" fill="#526579">Does the retrieved data match expectations?</text>
+    <rect x="765" y="282" width="540" height="38" rx="10" fill="#EEF2FF"/><text x="1035" y="306" text-anchor="middle" font-size="16" font-weight="700" fill="#4338CA">Cryptographic hash verification</text>
+    <circle cx="110" cy="435" r="28" fill="#D1FAE5"/><text x="110" y="444" text-anchor="middle" font-size="25" font-weight="800" fill="#047857">3</text>
+    <text x="157" y="433" font-size="25" font-weight="800" fill="#0F172A">Availability</text>
+    <text x="157" y="466" font-size="18" fill="#526579">Can someone retrieve it when needed?</text>
+    <rect x="95" y="497" width="540" height="38" rx="10" fill="#ECFDF5"/><text x="365" y="521" text-anchor="middle" font-size="16" font-weight="700" fill="#047857">Providers • pinning • replication • routing</text>
+    <circle cx="780" cy="435" r="28" fill="#FFEDD5"/><text x="780" y="444" text-anchor="middle" font-size="25" font-weight="800" fill="#C2410C">4</text>
+    <text x="827" y="433" font-size="25" font-weight="800" fill="#0F172A">Long-term retention</text>
+    <text x="827" y="466" font-size="18" fill="#526579">Who keeps it, and for how long?</text>
+    <rect x="765" y="497" width="540" height="38" rx="10" fill="#FFF7ED"/><text x="1035" y="521" text-anchor="middle" font-size="16" font-weight="700" fill="#9A3412">Storage agreements • renewal • recovery plan</text>
+  </g>
+</svg>
