@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img" aria-labelledby="title desc">
+  <title id="title">NFT metadata and decentralized storage architecture</title>
+  <desc id="desc">A smart contract returns a token URI, which points to metadata; the metadata references an asset CID. Retrieval uses an IPFS-compatible path. Pinning, Filecoin storage deals, and independent replicas are separate persistence choices that must be integrated and verified.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0284C7"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#4338CA"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#0F172A" flood-opacity=".1"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+  </defs>
+  <rect width="1500" height="920" rx="28" fill="#F8FAFC"/>
+  <text x="750" y="66" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#0F172A">How an NFT reaches its off-chain asset</text>
+  <text x="750" y="104" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#526579">The contract stores a reference; storage and retrieval happen in separate layers.</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="165" width="245" height="180" rx="20" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <rect x="355" y="165" width="245" height="180" rx="20" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <rect x="655" y="165" width="245" height="180" rx="20" fill="#FFFFFF" stroke="#67E8F9" stroke-width="2"/>
+    <rect x="955" y="165" width="245" height="180" rx="20" fill="#FFFFFF" stroke="#A5B4FC" stroke-width="2"/>
+    <rect x="1255" y="165" width="190" height="180" rx="20" fill="#FFFFFF" stroke="#A5B4FC" stroke-width="2"/>
+  </g>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="55" y="165" width="245" height="48" rx="20" fill="#DBEAFE"/><path d="M55 193H300V213H55Z" fill="#DBEAFE"/>
+    <text x="177.5" y="196" text-anchor="middle" font-size="17" font-weight="800" fill="#1D4ED8">ON-CHAIN</text>
+    <text x="177.5" y="249" text-anchor="middle" font-size="21" font-weight="800" fill="#0F172A">Smart contract</text>
+    <text x="177.5" y="278" text-anchor="middle" font-size="16" fill="#526579">tokenURI(tokenId)</text>
+    <text x="177.5" y="307" text-anchor="middle" font-size="15" fill="#526579">Ownership + reference</text>
+    <path d="M304 255H349" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="355" y="165" width="245" height="48" rx="20" fill="#DBEAFE"/><path d="M355 193H600V213H355Z" fill="#DBEAFE"/>
+    <text x="477.5" y="196" text-anchor="middle" font-size="17" font-weight="800" fill="#1D4ED8">URI REFERENCE</text>
+    <text x="477.5" y="249" text-anchor="middle" font-size="21" font-weight="800" fill="#0F172A">Metadata JSON</text>
+    <text x="477.5" y="278" text-anchor="middle" font-size="15" fill="#526579">Name, attributes, image URI</text>
+    <text x="477.5" y="307" text-anchor="middle" font-size="14" fill="#526579">May itself be content-addressed</text>
+    <path d="M604 255H649" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="655" y="165" width="245" height="48" rx="20" fill="#CFFAFE"/><path d="M655 193H900V213H655Z" fill="#CFFAFE"/>
+    <text x="777.5" y="196" text-anchor="middle" font-size="17" font-weight="800" fill="#0E7490">CONTENT ADDRESS</text>
+    <text x="777.5" y="249" text-anchor="middle" font-size="21" font-weight="800" fill="#0F172A">Asset CID</text>
+    <text x="777.5" y="278" text-anchor="middle" font-size="16" fill="#526579">ipfs://bafy…</text>
+    <text x="777.5" y="307" text-anchor="middle" font-size="15" fill="#526579">Identifies expected content</text>
+    <path d="M904 255H949" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="955" y="165" width="245" height="48" rx="20" fill="#E0E7FF"/><path d="M955 193H1200V213H955Z" fill="#E0E7FF"/>
+    <text x="1077.5" y="196" text-anchor="middle" font-size="17" font-weight="800" fill="#4338CA">RETRIEVAL</text>
+    <text x="1077.5" y="249" text-anchor="middle" font-size="21" font-weight="800" fill="#0F172A">IPFS peers / gateway</text>
+    <text x="1077.5" y="278" text-anchor="middle" font-size="15" fill="#526579">Find and fetch content</text>
+    <text x="1077.5" y="307" text-anchor="middle" font-size="15" fill="#526579">Verify against the CID</text>
+    <path d="M1204 255H1249" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="1255" y="165" width="190" height="48" rx="20" fill="#E0E7FF"/><path d="M1255 193H1445V213H1255Z" fill="#E0E7FF"/>
+    <text x="1350" y="196" text-anchor="middle" font-size="17" font-weight="800" fill="#4338CA">OFF-CHAIN</text>
+    <text x="1350" y="249" text-anchor="middle" font-size="21" font-weight="800" fill="#0F172A">Image / media</text>
+    <text x="1350" y="278" text-anchor="middle" font-size="15" fill="#526579">Asset bytes</text>
+    <text x="1350" y="307" text-anchor="middle" font-size="15" fill="#526579">Not stored in contract</text>
+  </g>
+  <text x="750" y="417" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800" fill="#0F172A">Persistence layer: how copies remain available</text>
+  <text x="750" y="450" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" fill="#526579">These are complementary options, not automatic guarantees. Configure and test the full retrieval path.</text>
+  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+    <rect x="95" y="500" width="390" height="145" rx="18" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2"/>
+    <rect x="555" y="500" width="390" height="145" rx="18" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="2"/>
+    <rect x="1015" y="500" width="390" height="145" rx="18" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="2"/>
+    <rect x="95" y="500" width="390" height="11" rx="5" fill="#0EA5E9"/>
+    <rect x="555" y="500" width="390" height="11" rx="5" fill="#6366F1"/>
+    <rect x="1015" y="500" width="390" height="11" rx="5" fill="#10B981"/>
+    <text x="290" y="550" text-anchor="middle" font-size="22" font-weight="800" fill="#0F172A">IPFS pinning</text>
+    <text x="290" y="582" text-anchor="middle" font-size="16" fill="#526579">Ask selected nodes or services</text>
+    <text x="290" y="606" text-anchor="middle" font-size="16" fill="#526579">to retain content.</text>
+    <text x="750" y="550" text-anchor="middle" font-size="22" font-weight="800" fill="#0F172A">Filecoin storage deal</text>
+    <text x="750" y="582" text-anchor="middle" font-size="16" fill="#526579">Contract for storage under</text>
+    <text x="750" y="606" text-anchor="middle" font-size="16" fill="#526579">defined terms and duration.</text>
+    <text x="1210" y="550" text-anchor="middle" font-size="22" font-weight="800" fill="#0F172A">Replication + backup</text>
+    <text x="1210" y="582" text-anchor="middle" font-size="16" fill="#526579">Maintain independent copies</text>
+    <text x="1210" y="606" text-anchor="middle" font-size="16" fill="#526579">and recovery procedures.</text>
+  </g>
+  <path d="M290 645V683H750M750 645V683M1210 645V683H750V710" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="7 7"/>
+  <rect x="240" y="710" width="1020" height="105" rx="20" fill="#0F2742"/>
+  <text x="750" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#E0F2FE">Developer responsibility</text>
+  <text x="750" y="782" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" fill="#B8D3E8">Choose providers, define retention duration, monitor availability, and test recovery.</text>
+  <text x="750" y="854" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#64748B">Illustrative architecture. Actual integrations and retrieval guarantees depend on the selected services.</text>
+</svg>
