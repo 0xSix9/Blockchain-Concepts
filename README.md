@@ -19,6 +19,7 @@
 ### 03 · Ethereum execution
 - [Ethereum Virtual Machine (EVM)](03-ethereum-execution/evm/README.md)
 - [EVM architecture](03-ethereum-execution/evm-architecture/README.md)
+- [Bytecode and Opcodes: Reading the EVM's Instructions](03-ethereum-execution/bytecode-and-opcodes/README.md)
 - [Ethereum accounts](03-ethereum-execution/accounts/README.md)
 - [Transactions](03-ethereum-execution/transactions/README.md)
 
