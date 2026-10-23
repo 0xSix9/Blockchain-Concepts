@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" role="img" aria-labelledby="title desc">
+<title id="title">From Solidity to EVM execution</title><desc id="desc">Shows the execution pipeline and the separate human-inspection path using a disassembler.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#64748B"/></marker></defs>
+<rect width="1400" height="680" rx="28" fill="#F5F7FB"/><rect x="34" y="28" width="1332" height="624" rx="24" fill="#fff" stroke="#E2E8F0" stroke-width="2"/>
+<text x="700" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#172033">From Solidity to EVM Execution</text>
+<text x="700" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#64748B">The runtime path is different from the path we use to inspect bytecode</text>
+<text x="82" y="165" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#64748B">EXECUTION PATH</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="70" y="190" width="250" height="120" rx="16" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/><text x="195" y="232" font-size="27" font-weight="700" fill="#1D4ED8">Solidity</text><text x="195" y="266" font-size="17" fill="#475569">High-level source code</text>
+<path d="M328 250 H370" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="382" y="190" width="210" height="120" rx="16" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="2"/><text x="487" y="232" font-size="25" font-weight="700" fill="#6D28D9">Compiler</text><text x="487" y="266" font-size="17" fill="#5B5670">e.g. solc</text>
+<path d="M600 250 H642" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="654" y="190" width="260" height="120" rx="16" fill="#ECFDF5" stroke="#86D6B5" stroke-width="2"/><text x="784" y="232" font-size="27" font-weight="700" fill="#047857">Bytecode</text><text x="784" y="266" font-size="17" fill="#3F6D61">A sequence of bytes</text>
+<path d="M922 250 H964" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="976" y="190" width="350" height="120" rx="16" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/><text x="1151" y="232" font-size="27" font-weight="700" fill="#C2410C">EVM</text><text x="1151" y="266" font-size="17" fill="#7C5C47">Reads and executes instructions</text>
+</g>
+<path d="M784 318 V374" fill="none" stroke="#64748B" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+<text x="82" y="412" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#64748B">HUMAN INSPECTION PATH</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="70" y="436" width="325" height="126" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/><text x="232" y="478" font-size="25" font-weight="700" fill="#334155">Raw bytecode</text><text x="232" y="515" font-family="monospace" font-size="22" fill="#475569">0x6002600301</text>
+<path d="M403 499 H455" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="467" y="436" width="420" height="126" rx="16" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/><text x="677" y="478" font-size="24" font-weight="700" fill="#1D4ED8">Disassembler / EVM.codes</text><text x="677" y="515" font-size="17" fill="#475569">Interprets bytes using EVM rules</text>
+<path d="M895 499 H947" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="959" y="436" width="367" height="126" rx="16" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="2"/><text x="1142" y="478" font-size="23" font-weight="700" fill="#6D28D9">Readable instructions</text><text x="1142" y="517" font-family="monospace" font-size="20" fill="#334155">PUSH1 · ADD · SSTORE</text>
+</g>
+<text x="700" y="614" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#64748B">The EVM does not need EVM.codes or a disassembler to execute bytecode.</text></svg>
