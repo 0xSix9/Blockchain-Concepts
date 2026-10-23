@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">Why not every byte is an opcode</title><desc id="desc">Color-coded illustration of 0x6002600301 showing opcode bytes and immediate data bytes.</desc>
+<rect width="1400" height="760" rx="28" fill="#F5F7FB"/><rect x="34" y="30" width="1332" height="700" rx="24" fill="#fff" stroke="#E2E8F0" stroke-width="2"/>
+<text x="700" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#172033">Why Isn't Every Byte an Opcode?</text>
+<text x="700" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#64748B">In this example, some bytes encode instructions and others are data</text>
+<rect x="100" y="155" width="1200" height="78" rx="15" fill="#F8FAFC" stroke="#E2E8F0"/><text x="700" y="183" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#64748B">BYTECODE (HEX)</text><text x="700" y="216" text-anchor="middle" font-family="monospace" font-size="29" font-weight="700" fill="#243044">0x60  02  60  03  01</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="220" y="277" font-size="16" fill="#64748B">Offset 0</text><text x="420" y="277" font-size="16" fill="#64748B">Offset 1</text><text x="620" y="277" font-size="16" fill="#64748B">Offset 2</text><text x="820" y="277" font-size="16" fill="#64748B">Offset 3</text><text x="1020" y="277" font-size="16" fill="#64748B">Offset 4</text>
+</g>
+<g font-family="monospace" text-anchor="middle">
+<rect x="150" y="294" width="140" height="92" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2.5"/><text x="220" y="333" font-size="32" font-weight="700" fill="#1D4ED8">60</text><text x="220" y="362" font-family="Arial,sans-serif" font-size="14" fill="#1E40AF">Opcode byte</text>
+<rect x="350" y="294" width="140" height="92" rx="14" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2.5"/><text x="420" y="333" font-size="32" font-weight="700" fill="#92400E">02</text><text x="420" y="362" font-family="Arial,sans-serif" font-size="14" fill="#92400E">Data byte</text>
+<rect x="550" y="294" width="140" height="92" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2.5"/><text x="620" y="333" font-size="32" font-weight="700" fill="#1D4ED8">60</text><text x="620" y="362" font-family="Arial,sans-serif" font-size="14" fill="#1E40AF">Opcode byte</text>
+<rect x="750" y="294" width="140" height="92" rx="14" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2.5"/><text x="820" y="333" font-size="32" font-weight="700" fill="#92400E">03</text><text x="820" y="362" font-family="Arial,sans-serif" font-size="14" fill="#92400E">Data byte</text>
+<rect x="950" y="294" width="140" height="92" rx="14" fill="#D1FAE5" stroke="#34D399" stroke-width="2.5"/><text x="1020" y="333" font-size="32" font-weight="700" fill="#047857">01</text><text x="1020" y="362" font-family="Arial,sans-serif" font-size="14" fill="#047857">Opcode byte</text>
+</g>
+<path d="M220 395 V420 H420 V395 M620 395 V420 H820 V395 M1020 395 V420" fill="none" stroke="#64748B" stroke-width="2.5"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="130" y="437" width="380" height="90" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/><text x="320" y="471" font-size="22" font-weight="700" fill="#1D4ED8">PUSH1 0x02</text><text x="320" y="501" font-size="16" fill="#475569">60 = opcode · 02 = data</text>
+<rect x="530" y="437" width="380" height="90" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/><text x="720" y="471" font-size="22" font-weight="700" fill="#1D4ED8">PUSH1 0x03</text><text x="720" y="501" font-size="16" fill="#475569">60 = opcode · 03 = data</text>
+<rect x="950" y="437" width="140" height="90" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="2"/><text x="1020" y="471" font-size="23" font-weight="700" fill="#047857">ADD</text><text x="1020" y="501" font-size="16" fill="#475569">01 = opcode</text>
+</g>
+<rect x="100" y="564" width="1200" height="108" rx="16" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/><circle cx="145" cy="604" r="17" fill="#EA580C"/><text x="145" y="611" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">!</text><text x="700" y="603" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#9A3412">Key idea</text><text x="700" y="640" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#7C2D12">PUSH1 tells the EVM to read the next byte as data. Here, 02 and 03 are not separate opcodes.</text>
+<text x="700" y="708" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#64748B">Blue = opcode byte  ·  Yellow = immediate data  ·  Green = ADD opcode</text></svg>
