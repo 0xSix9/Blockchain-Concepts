@@ -38,7 +38,7 @@ Solidity code is compiled into **bytecode**: a sequence of bytes that the EVM ca
 
 For example, the EVM opcode byte `0x60` identifies `PUSH1`. The byte that follows it is read as a one-byte value to push onto the stack. By contrast, `0x01` identifies `ADD`. The readable names `PUSH1` and `ADD` are called **mnemonics**. A disassembler or a tool such as [EVM.codes](https://www.evm.codes/) interprets bytecode and displays these instructions in a human-readable form; the EVM itself does not need a disassembler to execute code.
 
-For the byte-by-byte breakdown, hexadecimal notation, offsets, and a worked example, see [Bytecode and Opcodes](../bytecode-and-opcodes/README.md).
+For the byte-by-byte breakdown, hexadecimal notation, offsets, and a worked example, see [Bytecode and Opcodes](../05-bytecode-and-opcodes/README.md).
 
 A few commonly used opcodes:
 
