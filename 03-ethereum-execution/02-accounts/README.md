@@ -117,3 +117,10 @@ In this article, we covered the concept of accounts in Ethereum:
 - Every chain of contract-to-contract calls always starts with an EOA.
 
 Understanding this concept properly lays the groundwork for many other topics — from how wallets actually work to more advanced mechanisms like proxy contracts or multisig accounts, which we can explore in future articles.
+
+
+---
+
+## Related Deep Dive
+
+- [Multisig Contracts: Owners, Thresholds, Signatures, and Security](01-multisig-contracts/README.md) — a developer-focused guide to M-of-N authorization, signature hashing, execution flow, and audit properties.

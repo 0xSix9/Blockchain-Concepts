@@ -23,6 +23,7 @@ The numbered folders inside each section show a recommended learning order. Star
 ### 03 · Ethereum execution
 - [01 · Ethereum Virtual Machine (EVM)](03-ethereum-execution/01-evm/README.md)
 - [02 · Ethereum Accounts](03-ethereum-execution/02-accounts/README.md)
+  - [Multisig Contracts: Owners, Thresholds, Signatures, and Security](03-ethereum-execution/02-accounts/01-multisig-contracts/README.md)
 - [03 · Transactions](03-ethereum-execution/03-transactions/README.md)
 - [04 · EVM Architecture](03-ethereum-execution/04-evm-architecture/README.md)
 - [05 · Bytecode and Opcodes: Reading the EVM's Instructions](03-ethereum-execution/05-bytecode-and-opcodes/README.md)

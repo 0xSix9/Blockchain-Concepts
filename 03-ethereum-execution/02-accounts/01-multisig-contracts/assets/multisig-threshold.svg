@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">The 2-of-3 multisig threshold</title>
+  <desc id="desc">Three owners may approve. Any two distinct valid owner approvals satisfy the threshold; one does not.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#20242b"/></marker>
+    <style>
+      .bg{fill:#fff}.title{font:700 30px Arial,sans-serif;fill:#111827}.sub{font:16px Arial,sans-serif;fill:#4b5563}
+      .label{font:700 20px Arial,sans-serif;fill:#111827}.small{font:15px Arial,sans-serif;fill:#4b5563}
+      .owner{fill:#fff;stroke:#20242b;stroke-width:2}.approved{fill:#f3f4f6;stroke:#111827;stroke-width:2}
+      .line{fill:none;stroke:#20242b;stroke-width:2.5;marker-end:url(#arrow)}.chip{fill:#111827}.chiptext{font:700 16px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="560" rx="22"/>
+  <text x="56" y="58" class="title">A 2-of-3 multisig policy</text>
+  <text x="56" y="88" class="sub">The threshold counts distinct authorized owners—not the number of signature blobs.</text>
+  <rect x="55" y="145" width="250" height="94" rx="14" class="approved"/>
+  <text x="180" y="181" text-anchor="middle" class="label">Alice</text>
+  <text x="180" y="207" text-anchor="middle" class="small">valid approval ✓</text>
+  <rect x="55" y="266" width="250" height="94" rx="14" class="approved"/>
+  <text x="180" y="302" text-anchor="middle" class="label">Bob</text>
+  <text x="180" y="328" text-anchor="middle" class="small">valid approval ✓</text>
+  <rect x="55" y="387" width="250" height="94" rx="14" class="owner"/>
+  <text x="180" y="423" text-anchor="middle" class="label">Charlie</text>
+  <text x="180" y="449" text-anchor="middle" class="small">not required this time</text>
+  <path d="M305 192 H380 V252 H436" class="line"/>
+  <path d="M305 313 H436" class="line"/>
+  <path d="M305 434 H380 V374 H436" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="7 7"/>
+  <rect x="436" y="214" width="284" height="176" rx="18" fill="#fff" stroke="#111827" stroke-width="3"/>
+  <text x="578" y="253" text-anchor="middle" class="label">Multisig policy</text>
+  <text x="578" y="293" text-anchor="middle" class="small">Owners: 3</text>
+  <text x="578" y="321" text-anchor="middle" class="small">Threshold: 2</text>
+  <rect x="505" y="341" width="146" height="30" rx="15" class="chip"/>
+  <text x="578" y="361" text-anchor="middle" class="chiptext">2 valid owners</text>
+  <path d="M720 302 H812" class="line"/>
+  <rect x="812" y="235" width="320" height="136" rx="18" fill="#fff" stroke="#111827" stroke-width="2.5"/>
+  <text x="972" y="275" text-anchor="middle" class="label">Execution allowed</text>
+  <text x="972" y="307" text-anchor="middle" class="small">Only for the exact</text>
+  <text x="972" y="331" text-anchor="middle" class="small">approved operation</text>
+  <text x="56" y="526" class="sub">Security assumption: keys are independently controlled and the contract enforces the policy correctly.</text>
+</svg>

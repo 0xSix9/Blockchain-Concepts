@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Multisig transaction lifecycle</title>
+  <desc id="desc">A proposal is signed by owners, submitted, verified for signer uniqueness and threshold, then executed or rejected.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#20242b"/></marker>
+    <style>
+      .bg{fill:#fff}.heading{font:700 30px Arial,sans-serif;fill:#111827}.subtitle{font:16px Arial,sans-serif;fill:#4b5563}
+      .box{fill:#fff;stroke:#20242b;stroke-width:2}.primary{fill:#f3f4f6;stroke:#111827;stroke-width:2.5}
+      .decision{fill:#fff;stroke:#111827;stroke-width:2.5}.label{font:700 18px Arial,sans-serif;fill:#111827}
+      .small{font:15px Arial,sans-serif;fill:#4b5563}.line{fill:none;stroke:#20242b;stroke-width:2.3;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#9ca3af;stroke-width:2;stroke-dasharray:7 7}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="760" rx="22"/>
+  <text x="54" y="58" class="heading">From proposal to execution</text>
+  <text x="54" y="86" class="subtitle">Generic signature-based flow. On-chain-confirmation designs differ in how approvals are recorded.</text>
+
+  <rect x="365" y="120" width="470" height="78" rx="14" class="box"/>
+  <text x="600" y="151" text-anchor="middle" class="label">1 · Define the operation</text>
+  <text x="600" y="177" text-anchor="middle" class="small">to · value · calldata · operation · nonce</text>
+  <path d="M600 198 V230" class="line"/>
+
+  <rect x="365" y="230" width="470" height="78" rx="14" class="primary"/>
+  <text x="600" y="261" text-anchor="middle" class="label">2 · Owners review and sign</text>
+  <text x="600" y="286" text-anchor="middle" class="small">Each approval must bind to the same digest</text>
+  <path d="M600 308 V340" class="line"/>
+
+  <rect x="365" y="340" width="470" height="78" rx="14" class="box"/>
+  <text x="600" y="371" text-anchor="middle" class="label">3 · Submit to the account</text>
+  <text x="600" y="396" text-anchor="middle" class="small">An outer transaction calls the multisig contract</text>
+  <path d="M600 418 V450" class="line"/>
+
+  <rect x="345" y="450" width="510" height="90" rx="14" class="primary"/>
+  <text x="600" y="481" text-anchor="middle" class="label">4 · Verify authorization</text>
+  <text x="600" y="507" text-anchor="middle" class="small">Authorized owners · unique signers · valid digest</text>
+  <text x="600" y="527" text-anchor="middle" class="small">Replay state · threshold</text>
+  <path d="M600 540 V566" class="line"/>
+
+  <path d="M600 566 L706 622 L600 678 L494 622 Z" class="decision"/>
+  <text x="600" y="618" text-anchor="middle" class="label">Threshold</text>
+  <text x="600" y="641" text-anchor="middle" class="label">reached?</text>
+
+  <path d="M706 622 H824" class="line"/>
+  <text x="756" y="607" class="small">Yes</text>
+  <rect x="824" y="583" width="300" height="78" rx="14" class="primary"/>
+  <text x="974" y="614" text-anchor="middle" class="label">5 · Execute operation</text>
+  <text x="974" y="639" text-anchor="middle" class="small">Transfer or call target contract</text>
+
+  <path d="M494 622 H376" class="line"/>
+  <text x="425" y="607" class="small">No</text>
+  <rect x="60" y="583" width="316" height="78" rx="14" class="box"/>
+  <text x="218" y="614" text-anchor="middle" class="label">Reject / wait for approvals</text>
+  <text x="218" y="639" text-anchor="middle" class="small">No authorized execution</text>
+
+  <text x="54" y="718" class="subtitle">Audit note: verify every execution route, not just the normal signature path.</text>
+</svg>
